@@ -1,0 +1,85 @@
+body {
+    background: rgb(59,103,158);
+background: -moz-radial-gradient(center, ellipse cover,  rgba(59,103,158,1) 0%, rgba(43,136,217,1) 0%, rgba(37,167,232,1) 49%, rgba(125,185,232,1) 100%);
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(59,103,158,1) 0%,rgba(43,136,217,1) 0%,rgba(37,167,232,1) 49%,rgba(125,185,232,1) 100%);
+background: radial-gradient(ellipse at center,  rgba(59,103,158,1) 0%,rgba(43,136,217,1) 0%,rgba(37,167,232,1) 49%,rgba(125,185,232,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#7db9e8',GradientType=1 );
+
+    
+
+
+}
+p {
+    font-size: 40px;
+    margin-top: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+
+}
+
+ .forgot {
+
+    color: #fff;
+    font-size: 25px;
+}
+.forgot:hover {
+    text-decoration: underline;
+    color: brown;
+    
+}
+.container {
+    width: 450px;
+    height: 500px;
+    margin: 20px auto 0 auto;
+    text-align: center;
+      
+}
+input[type="text"], input[type="password"]  {
+    width: 300px;
+    height: 50px;
+    box-sizing: border-box;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding-left: 50px;
+}
+input[type="submit"] {
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding-left: 10px;
+    color: white;
+    background-color: 	#292929;
+
+}
+.me {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 0px;
+    
+}
+.user {
+    margin-top: 50px;
+}
+input[type="text"] {
+    background-image: url(/img/user-solid.svg);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    background-size: 20px 20px;
+    background-attachment: local;
+    
+  
+}
+
+input[type="password"] {
+    background-image: url(/img/lock-solid.svg);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    background-size: 20px 20px;
+    background-attachment: local;
+    
+}
